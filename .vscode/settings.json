@@ -1,0 +1,45 @@
+{
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "log.error",
+        "settings": {
+          "foreground": "#af1f1f",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": "log.debug",
+        "settings": {
+          "foreground": "#3952e2",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": "log.warning",
+        "settings": {
+          "foreground": "#f4ad42",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": "googletest.failed",
+        "settings": {
+          "foreground": "#f00"
+        }
+      },
+      {
+        "scope": "googletest.passed",
+        "settings": {
+          "foreground": "#0f0"
+        }
+      },
+      {
+        "scope": "googletest.run",
+        "settings": {
+          "foreground": "#0f0"
+        }
+      }
+    ]
+  }
+}
